@@ -1,0 +1,22 @@
+#quotes{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(207, 51, 147),
+    0 0 21px rgb(207, 51, 147),
+    0 0 42px rgb(207, 51, 147),
+    0 0 82px rgb(207, 51, 147),
+    0 0 92px rgb(207, 51, 147),
+    0 0 102px rgb(207, 51, 147),
+    0 0 151px rgb(207, 51, 147);
+    z-index: 1;
+}
+
+#quotes:hover{
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}

@@ -1,0 +1,58 @@
+#todo-list-div{
+    color: #fff;
+    text-shadow :
+    0 0 7px #fff,
+    0 0 10px rgb(207, 51, 147),
+    0 0 21px rgb(207, 51, 147),
+    0 0 42px rgb(207, 51, 147),
+    0 0 82px rgb(207, 51, 147),
+    0 0 92px rgb(207, 51, 147),
+    0 0 102px rgb(207, 51, 147),
+    0 0 151px rgb(207, 51, 147);;
+}
+
+#todowhole{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#todo{
+    width: 300px;
+}
+
+#input-todos{
+    width: 300px;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 3px white solid;
+    background-color:transparent; 
+    text-align: center;
+    color: aliceblue;
+    outline: none;   
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: border-color 0.5s ease-in-out;
+}
+
+#input-todos:hover{
+    border-color: #fae100;
+}
+
+#input-todos::placeholder {
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+#todo-list span{
+    margin-right: 30px;
+}
