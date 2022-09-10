@@ -12,9 +12,12 @@ function Getname(e){
 }
 
 const username = localStorage.getItem("username");
-if(username === null){
-    
+if(username !== null){
+    container.classList.add("hidden");
+    greeting.classList.remove("hidden");
+    greeting.innerHTML = `반가워요 ${localStorage.getItem("username")}님! 좋은 하루 되세요`;
+}else{
+    loginFomr.addEventListener("submit",Getname);
 }
 
-loginFomr.addEventListener("submit",Getname);
 
